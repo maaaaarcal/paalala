@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">paalala</string>
+
+    <string name="channel_name">paalala</string>
+
+    <string name="home_title">tasks</string>
+    <string name="add_task_btn">add task</string>
+</resources>
