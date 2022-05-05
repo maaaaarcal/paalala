@@ -3,7 +3,7 @@
  
 ---
 ## changelog:
-## - v0.2.1
+### - v0.2.1
  first (kinda) functional version of the flutter rewrite
-## - v0.2.2
+### - v0.2.2
  cleaned up code, minor ui changes
