@@ -7,3 +7,5 @@
  first (kinda) functional version of the flutter rewrite
 ### - v0.2.2
  cleaned up code, minor ui changes
+### - v0.3
+ used hive as local database, added task editing and deleting operations for full CRUD functionality
