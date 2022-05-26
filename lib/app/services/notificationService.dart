@@ -41,9 +41,12 @@ class NotificationService {
     importance: Importance.high,
   );
 
-  Future<void> showNotifications(task) async {
+  Future<void> showNotifications(key, task) async {
+     var taskKey = key;
+     taskKey = taskKey ?? 9999;
+
     await flutterLocalNotificationsPlugin.show(
-      0,
+      taskKey,
       task.title,
       task.description,
       NotificationDetails(android: _androidNotificationDetails),

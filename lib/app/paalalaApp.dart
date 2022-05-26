@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:paalala_flutter/app/ui/taskList.dart';
+import 'package:paalala_flutter/app/ui/taskPage.dart';
 
 class PaalalaApp extends StatelessWidget {
 
@@ -10,7 +10,7 @@ class PaalalaApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.amber,
       ),
-      home: const TaskList(), //HomePage(title: 'paalala'),
+      home: const TaskPage(), //HomePage(title: 'paalala'),
     );
   }
 }
