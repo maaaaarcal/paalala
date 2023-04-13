@@ -10,4 +10,4 @@
 ### - v0.3
  used hive as local database, added task editing and deleting operations for full CRUD functionality
 ### - v0.4
- changes to folder structure, added periodic notifications
+ changes to folder structure, added (limited) periodic notifications
