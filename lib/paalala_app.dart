@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:paalala_flutter/app/ui/taskPage.dart';
+
+import 'package:paalala/ui/screens/task_screen.dart';
 
 class PaalalaApp extends StatelessWidget {
+  const PaalalaApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +12,7 @@ class PaalalaApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.amber,
       ),
-      home: const TaskPage(), //HomePage(title: 'paalala'),
+      home: const TaskScreen(), //HomePage(title: 'paalala'),
     );
   }
 }

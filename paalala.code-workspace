@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.defaultFormatter": "Dart-Code.flutter",
+		"editor.formatOnSave": true,
+		"dart.lineLength": 100
+	}
+}
